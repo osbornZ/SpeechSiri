@@ -9,10 +9,30 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>SpeechSiriIntent.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SpeechSiriIntentUI.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>844B6AAB1EC374AE00567564</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>844B6AC41EC37AFE00567564</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>844B6ACD1EC37AFE00567564</key>
 		<dict>
 			<key>primary</key>
 			<true/>

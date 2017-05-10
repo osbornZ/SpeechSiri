@@ -12,7 +12,45 @@
 		844B6AB51EC374AE00567564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844B6AB31EC374AE00567564 /* Main.storyboard */; };
 		844B6AB71EC374AE00567564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844B6AB61EC374AE00567564 /* Assets.xcassets */; };
 		844B6ABA1EC374AE00567564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844B6AB81EC374AE00567564 /* LaunchScreen.storyboard */; };
+		844B6AC81EC37AFE00567564 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B6AC71EC37AFE00567564 /* IntentHandler.swift */; };
+		844B6AD11EC37AFE00567564 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844B6AD01EC37AFE00567564 /* IntentsUI.framework */; };
+		844B6AD41EC37AFE00567564 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B6AD31EC37AFE00567564 /* IntentViewController.swift */; };
+		844B6AD71EC37AFE00567564 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844B6AD51EC37AFE00567564 /* MainInterface.storyboard */; };
+		844B6ADB1EC37AFE00567564 /* SpeechSiriIntentUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 844B6ACE1EC37AFE00567564 /* SpeechSiriIntentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		844B6ADE1EC37AFE00567564 /* SpeechSiriIntent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 844B6AC51EC37AFE00567564 /* SpeechSiriIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		844B6AD91EC37AFE00567564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 844B6AA41EC374AE00567564 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 844B6ACD1EC37AFE00567564;
+			remoteInfo = SpeechSiriIntentUI;
+		};
+		844B6ADC1EC37AFE00567564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 844B6AA41EC374AE00567564 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 844B6AC41EC37AFE00567564;
+			remoteInfo = SpeechSiriIntent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		844B6AE51EC37AFE00567564 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				844B6ADB1EC37AFE00567564 /* SpeechSiriIntentUI.appex in Embed App Extensions */,
+				844B6ADE1EC37AFE00567564 /* SpeechSiriIntent.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		844B6AAC1EC374AE00567564 /* SpeechSiri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechSiri.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +60,14 @@
 		844B6AB61EC374AE00567564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		844B6AB91EC374AE00567564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		844B6ABB1EC374AE00567564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844B6AC51EC37AFE00567564 /* SpeechSiriIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SpeechSiriIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		844B6AC71EC37AFE00567564 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		844B6AC91EC37AFE00567564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844B6ACE1EC37AFE00567564 /* SpeechSiriIntentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SpeechSiriIntentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		844B6AD01EC37AFE00567564 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		844B6AD31EC37AFE00567564 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		844B6AD61EC37AFE00567564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		844B6AD81EC37AFE00567564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +78,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		844B6AC21EC37AFE00567564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844B6ACB1EC37AFE00567564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844B6AD11EC37AFE00567564 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -39,6 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				844B6AAE1EC374AE00567564 /* SpeechSiri */,
+				844B6AC61EC37AFE00567564 /* SpeechSiriIntent */,
+				844B6AD21EC37AFE00567564 /* SpeechSiriIntentUI */,
+				844B6ACF1EC37AFE00567564 /* Frameworks */,
 				844B6AAD1EC374AE00567564 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				844B6AAC1EC374AE00567564 /* SpeechSiri.app */,
+				844B6AC51EC37AFE00567564 /* SpeechSiriIntent.appex */,
+				844B6ACE1EC37AFE00567564 /* SpeechSiriIntentUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +130,33 @@
 			path = SpeechSiri;
 			sourceTree = "<group>";
 		};
+		844B6AC61EC37AFE00567564 /* SpeechSiriIntent */ = {
+			isa = PBXGroup;
+			children = (
+				844B6AC71EC37AFE00567564 /* IntentHandler.swift */,
+				844B6AC91EC37AFE00567564 /* Info.plist */,
+			);
+			path = SpeechSiriIntent;
+			sourceTree = "<group>";
+		};
+		844B6ACF1EC37AFE00567564 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				844B6AD01EC37AFE00567564 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		844B6AD21EC37AFE00567564 /* SpeechSiriIntentUI */ = {
+			isa = PBXGroup;
+			children = (
+				844B6AD31EC37AFE00567564 /* IntentViewController.swift */,
+				844B6AD51EC37AFE00567564 /* MainInterface.storyboard */,
+				844B6AD81EC37AFE00567564 /* Info.plist */,
+			);
+			path = SpeechSiriIntentUI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +167,52 @@
 				844B6AA81EC374AE00567564 /* Sources */,
 				844B6AA91EC374AE00567564 /* Frameworks */,
 				844B6AAA1EC374AE00567564 /* Resources */,
+				844B6AE51EC37AFE00567564 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				844B6ADA1EC37AFE00567564 /* PBXTargetDependency */,
+				844B6ADD1EC37AFE00567564 /* PBXTargetDependency */,
 			);
 			name = SpeechSiri;
 			productName = SpeechSiri;
 			productReference = 844B6AAC1EC374AE00567564 /* SpeechSiri.app */;
 			productType = "com.apple.product-type.application";
+		};
+		844B6AC41EC37AFE00567564 /* SpeechSiriIntent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844B6AE21EC37AFE00567564 /* Build configuration list for PBXNativeTarget "SpeechSiriIntent" */;
+			buildPhases = (
+				844B6AC11EC37AFE00567564 /* Sources */,
+				844B6AC21EC37AFE00567564 /* Frameworks */,
+				844B6AC31EC37AFE00567564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeechSiriIntent;
+			productName = SpeechSiriIntent;
+			productReference = 844B6AC51EC37AFE00567564 /* SpeechSiriIntent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		844B6ACD1EC37AFE00567564 /* SpeechSiriIntentUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844B6ADF1EC37AFE00567564 /* Build configuration list for PBXNativeTarget "SpeechSiriIntentUI" */;
+			buildPhases = (
+				844B6ACA1EC37AFE00567564 /* Sources */,
+				844B6ACB1EC37AFE00567564 /* Frameworks */,
+				844B6ACC1EC37AFE00567564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeechSiriIntentUI;
+			productName = SpeechSiriIntentUI;
+			productReference = 844B6ACE1EC37AFE00567564 /* SpeechSiriIntentUI.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +225,16 @@
 				ORGANIZATIONNAME = zfan;
 				TargetAttributes = {
 					844B6AAB1EC374AE00567564 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9VLNA5G8PG;
+						ProvisioningStyle = Automatic;
+					};
+					844B6AC41EC37AFE00567564 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9VLNA5G8PG;
+						ProvisioningStyle = Automatic;
+					};
+					844B6ACD1EC37AFE00567564 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 9VLNA5G8PG;
 						ProvisioningStyle = Automatic;
@@ -115,6 +255,8 @@
 			projectRoot = "";
 			targets = (
 				844B6AAB1EC374AE00567564 /* SpeechSiri */,
+				844B6AC41EC37AFE00567564 /* SpeechSiriIntent */,
+				844B6ACD1EC37AFE00567564 /* SpeechSiriIntentUI */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +272,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		844B6AC31EC37AFE00567564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844B6ACC1EC37AFE00567564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844B6AD71EC37AFE00567564 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -142,7 +299,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		844B6AC11EC37AFE00567564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844B6AC81EC37AFE00567564 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844B6ACA1EC37AFE00567564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844B6AD41EC37AFE00567564 /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		844B6ADA1EC37AFE00567564 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 844B6ACD1EC37AFE00567564 /* SpeechSiriIntentUI */;
+			targetProxy = 844B6AD91EC37AFE00567564 /* PBXContainerItemProxy */;
+		};
+		844B6ADD1EC37AFE00567564 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 844B6AC41EC37AFE00567564 /* SpeechSiriIntent */;
+			targetProxy = 844B6ADC1EC37AFE00567564 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		844B6AB31EC374AE00567564 /* Main.storyboard */ = {
@@ -159,6 +345,14 @@
 				844B6AB91EC374AE00567564 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		844B6AD51EC37AFE00567564 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844B6AD61EC37AFE00567564 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -258,6 +452,7 @@
 		844B6ABF1EC374AE00567564 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9VLNA5G8PG;
 				INFOPLIST_FILE = SpeechSiri/Info.plist;
@@ -271,12 +466,65 @@
 		844B6AC01EC374AE00567564 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9VLNA5G8PG;
 				INFOPLIST_FILE = SpeechSiri/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zfxj0902.SpeechSiri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		844B6AE01EC37AFE00567564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9VLNA5G8PG;
+				INFOPLIST_FILE = SpeechSiriIntentUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zfxj0902.SpeechSiri.SpeechSiriIntentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		844B6AE11EC37AFE00567564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9VLNA5G8PG;
+				INFOPLIST_FILE = SpeechSiriIntentUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zfxj0902.SpeechSiri.SpeechSiriIntentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		844B6AE31EC37AFE00567564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9VLNA5G8PG;
+				INFOPLIST_FILE = SpeechSiriIntent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zfxj0902.SpeechSiri.SpeechSiriIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		844B6AE41EC37AFE00567564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9VLNA5G8PG;
+				INFOPLIST_FILE = SpeechSiriIntent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zfxj0902.SpeechSiri.SpeechSiriIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -298,6 +546,22 @@
 			buildConfigurations = (
 				844B6ABF1EC374AE00567564 /* Debug */,
 				844B6AC01EC374AE00567564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		844B6ADF1EC37AFE00567564 /* Build configuration list for PBXNativeTarget "SpeechSiriIntentUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844B6AE01EC37AFE00567564 /* Debug */,
+				844B6AE11EC37AFE00567564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		844B6AE21EC37AFE00567564 /* Build configuration list for PBXNativeTarget "SpeechSiriIntent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844B6AE31EC37AFE00567564 /* Debug */,
+				844B6AE41EC37AFE00567564 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
